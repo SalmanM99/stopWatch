@@ -63,4 +63,7 @@ button{
         body{
             background-size: cover;
         }
+        #stop,#reset{
+            border: none;
+        }
 }
