@@ -1,6 +1,7 @@
 body{
     background-image: linear-gradient(to right,cyan,azure);
     text-align: center;
+    
 }
 .heading{
     color: white;
@@ -23,6 +24,7 @@ button{
     font-size: 18px;   
     transition: all .5s;
     margin: 10px;
+    
 }
 #start{
     background-color: orange;
@@ -35,10 +37,12 @@ button{
 #stop{
     background-color: red;
     color: white;
+    border: none;
 }
 #stop:hover{
     background-color: white;
     color: red;
+    border: none;
 }
 #reset{
     background-color: royalblue;
@@ -47,4 +51,16 @@ button{
 #reset:hover{
     background-color: white;
     color: blue;
+}
+
+
+
+@media only screen and (max-width : 550px){
+        .heading{
+            width: 250px;
+            font-size: 28px;
+        }
+        body{
+            background-size: cover;
+        }
 }
