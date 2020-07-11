@@ -30,6 +30,7 @@ function start(){
 function stop(){
     clearInterval(interval)
     btn.disabled = false;
+    
 }
 
 function reset(){

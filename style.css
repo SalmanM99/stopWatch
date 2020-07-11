@@ -30,16 +30,15 @@ button{
     background-color: orange;
     color: white;
 }
-#start:hover{
+#start:disabled{
     background-color: white;
     color: orange;
 }
 #stop{
     background-color: red;
     color: white;
-    border: none;
 }
-#stop:hover{
+#stop:focus{
     background-color: white;
     color: red;
     border: none;
@@ -48,10 +47,11 @@ button{
     background-color: royalblue;
     color: white;
 }
-#reset:hover{
+#reset:focus{
     background-color: white;
     color: blue;
 }
+
 
 
 
@@ -60,10 +60,10 @@ button{
             width: 250px;
             font-size: 28px;
         }
-        body{
-            background-size: cover;
+        button{
+            padding: 25px;
+            width: 70px;
+            font-size: 15px;
         }
-        #stop,#reset{
-            border: none;
-        }
+       
 }
