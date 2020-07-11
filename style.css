@@ -1,0 +1,50 @@
+body{
+    background-image: linear-gradient(to right,cyan,azure);
+    text-align: center;
+}
+.heading{
+    color: white;
+    width: 400px;
+    background-image: linear-gradient(to right,red,darkred);
+    border-radius: 10px;
+    padding: 10px;
+}
+h1{
+    display: inline-block;
+    width: 50px;
+    font-size: 42px;
+    color: blue;
+}
+button{
+    border-radius: 100px;
+    border: none;
+    padding: 30px;
+    width: 85px;
+    font-size: 18px;   
+    transition: all .5s;
+    margin: 10px;
+}
+#start{
+    background-color: orange;
+    color: white;
+}
+#start:hover{
+    background-color: white;
+    color: orange;
+}
+#stop{
+    background-color: red;
+    color: white;
+}
+#stop:hover{
+    background-color: white;
+    color: red;
+}
+#reset{
+    background-color: royalblue;
+    color: white;
+}
+#reset:hover{
+    background-color: white;
+    color: blue;
+}
