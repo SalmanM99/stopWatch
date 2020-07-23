@@ -24,6 +24,7 @@ button{
     font-size: 18px;   
     transition: all .5s;
     margin: 10px;
+    outline: none;
     
 }
 #start{
