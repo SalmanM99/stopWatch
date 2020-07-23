@@ -56,15 +56,16 @@ button{
 
 
 
-@media only screen and (max-width : 550px){
+@media only screen and (max-width : 450px){
         .heading{
-            width: 250px;
-            font-size: 28px;
+            width: 200px;
+            font-size: 24px;
         }
         button{
             padding: 25px;
             width: 70px;
             font-size: 15px;
+            outline: none;
         }
        
 }
